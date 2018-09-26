@@ -69,6 +69,10 @@ body{
     background-size: cover;
 }
 
+.card-body{
+	z-index:9;
+}
+
 
 .form{
 	max-width:600px;
@@ -103,7 +107,7 @@ margin:0 auto;
 
 h1{font-size:2em;}
 h2{font-size:1.6em; color:#3c3c3c;}
-h5{font-size:1.4em;}
+h5{font-size:1.3em;}
 
 .btn .btn-success{
 	box-shadow: 1px 11px 20px #0003;
@@ -115,9 +119,6 @@ h1, h2, h3, h4, h5{font-family: 'League Spartan';}
 
 
 @media only screen and (max-width: 600px) {
-   .text-success {
-      color: #fff !important;
-    }
     .depoimentos{
     padding:40px;
     }
