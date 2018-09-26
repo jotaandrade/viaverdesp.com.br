@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="canonical" href="https://viaverdesp.com.br">
+<link rel="alternate" hreflang="pt-br" href="https://pt.viaverdesp.com.br" />
+
+<title>Via Verde Ambiental - Manutenção e Implementação de Áreas Verdes</title>
+
+<meta name="description" content="Manutenção e Implementação de Áreas Verdes, Paisagismo, Manutenção, Construção e Reflorestamento.">
+<meta name="image" content="logo">
+<meta name="author" content="Via Verde Ambiental">
+
+<meta itemprop="name" content="Via Verde Ambiental - Manutenção e Implementação de Áreas Verdes">
+<meta itemprop="description" content="A Via Verde Ambiental está á 25 anos no mercado, especializada em serviços de implementação e manutenção de áreas verdes em condomínios e empresas. Atendemos com profissionais capacitados e habilitados. Estamos sempre inovando e possuimos os equipamentos necessários para realização dos serviços como, Paisagismo, Manutenção, Construção e Reflorestamento.">
+<meta itemprop="image" content="logo">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Via Verde Ambiental - Manutenção e Implementação de Áreas Verdes">
+<meta name="twitter:description" content="A Via Verde Ambiental está á 25 anos no mercado, especializada em serviços de implementação e manutenção de áreas verdes em condomínios e empresas. Atendemos com profissionais capacitados e habilitados. Estamos sempre inovando e possuimos os equipamentos necessários para realização dos serviços como, Paisagismo, Manutenção, Construção e Reflorestamento.">
+<meta name="twitter:site" content="@viaverdesp">
+<meta name="twitter:creator" content="@viaverdesp">
+<meta name="twitter:image:src" content="logo">
+
+<meta name="og:title" content="Via Verde Ambiental - Manutenção e Implementação de Áreas Verdes">
+<meta name="og:description" content="A Via Verde Ambiental está á 25 anos no mercado, especializada em serviços de implementação e manutenção de áreas verdes em condomínios e empresas. Atendemos com profissionais capacitados e habilitados. Estamos sempre inovando e possuimos os equipamentos necessários para realização dos serviços como, Paisagismo, Manutenção, Construção e Reflorestamento.">
+<meta name="og:image" content="logo">
+<meta name="og:url" content="https://viaverdesp.com">
+<meta name="og:site_name" content="Via Verde Ambiental">
+<meta name="og:type" content="website">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/stylesheets/site.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/owl.carousel.min.css">
+
+
+<link rel="shortcut icon" type="image/png" href="images/icon.png" />
+
+</head>
+<body>
+    <header>
+      <div class="bg-green"><img src="images/bg-green.svg"></div>
+      <div class="container">
+        <div class="row pt-5">
+              <div class="col-md-6">
+                <div class="navbar-brand mb-5 d-flex justify-content-center justify-content-md-start">
+                  <img src="{{logo type=image tag=false required=false}}" width="180" height="50">
+                </div>
+                {{#section destaque label="Destaque"}}
+                <div class="hero mt-2 mb-5">
+                    <h1 class="text-uppercase text-success text-center text-sm-left">
+                    {{Titulo}}</h1>
+                     <p class="text-secondary mb-3 mt-4 text-center text-sm-left">
+                     {{Descricao}}</p> 
+                    <div class="row">
+                    <div class="col-md-6 mb-2">
+                    <a href="#" class="btn btn-success rounded-5 border-0 btn-block">Entre em Contato</a>
+                  </div>
+                    <div class="col-md-6">
+                    <a href="#" class="btn btn-outline-success rounded-5  btn-block">Nossas Soluções</a> 
+                  </div>
+                  </div>
+              </div>
+              {{/section}}
+            </div>
+             
+              <div class="col-md-6 d-inline-flex flex-column mb-5">
+               {{#section Telefone label="Telefone"}}
+                <div class="telefones text-right">
+                    <p>{{Primeiro}}</p>
+                    <p>{{Segundo}}</p>
+                    <p>{{Celular}}</p>
+                </div>
+                 {{/section}}
+                {{#section video label="Video"}}
+                <div class="video">
+                  <i class="player"></i>
+                </div>
+              </div>
+              {{/section}}
+          </div>
+      </div>
+    </header>
+       <section class="container-fluid mt-sm-5">
+      {{#section solucao label="Soluções"}}
+      <div class="text-center title mb-5">
+        <h2 class="text-uppercase">{{Titulo}}</h2>
+        <p>{{Descricao}}</p>
+      </div>
+       {{/section}}  
+        <div id="owl-carousel1" class="owl-carousel owl-theme">
+          {{#section solucoes multiple=true}}
+          <div class="card item">
+            <div class="gradient"></div>
+            <img src="{{foto type=image tag=false required=false}}" class="card-img-top" alt="Soluções em Areas Verdes">
+              <div class="card-body">
+                <h5 class="card-title text-center text-uppercase">{{Titulo}}</h5>
+                <p class="card-text text-center">{{Descricao}}</p>
+                <div class="d-flex justify-content-center">
+                  <a href="" class="btn btn-outline-success rounded-5 pl-4 pr-4">Fale com um especialista</a>
+                </div>
+              </div>
+          </div>
+          {{/section}}  
+        </div>  
+         
+    </section> 
+  <section class="container-fluid mt-5 p-0">
+      <div class="text-center title p-2">
+         {{#section recomendacao label="Recomendações"}}
+           <h3 class="text-uppercase">{{Titulo}}</h3>
+           <p>{{Descricao}}</p>
+        {{/section}}
+      </div>
+      <div class="bg-success depoimentos">
+        <div id="owl-carousel2" class="owl-carousel owl-theme">
+          {{#section depoimentos multiple=true}}
+          <div class="text-center text-white item">
+              <div>{{Depoimento}}</div>
+              <h4 class="small mt-2">{{Autor}}</h4>
+               <img class="estrela" src="{{Estrelas type=image tag=false required=false}}" />
+          </div>
+          {{/section}}
+        </div>
+      </div>
+  </section>
+  <section class="container mt-5">
+    <div class="text-center title">
+       {{#section contato label="Contato"}}
+      <h4 class="text-uppercase">{{Titulo}}</h4>
+     <p class="text-secondary">{{Descricao}}</p>
+      {{/section}}
+    </div>
+    <div class="form">
+      {{#form formulario subject="Contato do Site Via Verde Ambiental"}}
+        {{nome}}
+        {{email}}
+        {{telefone}}
+        {{Mensagem long=true}}
+      {{/form}}
+    </div>
+        <address class="text-center mt-4">
+          <p>Av. Eugênio Bernardi, 267</p>
+          <p>15 3417 1123 | 3202 6458 | 99698 9176</p>
+          <a href="">contato@viaverdesp.com.br</a>
+        </address>
+  </section>
+
+   <footer></footer>
+
+  
+  <script src="javascripts/jquery-3.3.1.min.js"></script>
+  <script src="javascripts/owl.carousel.min.js"></script>
+  <script src="/javascripts/site.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#owl-carousel1').owlCarousel({
+          loop:true,
+          center: true,
+          margin:5,
+          nav:false,
+          autoplay:true,
+          autoplayTimeout:2000,
+          autoplayHoverPause:true,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:3
+              },
+              1000:{
+                  items:5
+              }
+          }
+      })
+          $('#owl-carousel2').owlCarousel({
+          loop:true,
+          center: true,
+          margin:5,
+          nav:false,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:1
+              },
+              1000:{
+                  items:1
+              }
+          }
+      })
+    });
+  </script>
+
+</body>
+</html>
